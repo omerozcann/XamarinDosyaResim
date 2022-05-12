@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFFotograf.Android", "XFFotograf\XFFotograf.Android\XFFotograf.Android.csproj", "{D276119B-7749-4BDF-8DEE-FF2ACA760E50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFFotograf", "XFFotograf\XFFotograf\XFFotograf.csproj", "{FC8C840D-6918-4E8F-B83D-E0BA42B89713}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D276119B-7749-4BDF-8DEE-FF2ACA760E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D276119B-7749-4BDF-8DEE-FF2ACA760E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D276119B-7749-4BDF-8DEE-FF2ACA760E50}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D276119B-7749-4BDF-8DEE-FF2ACA760E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D276119B-7749-4BDF-8DEE-FF2ACA760E50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D276119B-7749-4BDF-8DEE-FF2ACA760E50}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FC8C840D-6918-4E8F-B83D-E0BA42B89713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8C840D-6918-4E8F-B83D-E0BA42B89713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8C840D-6918-4E8F-B83D-E0BA42B89713}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FC8C840D-6918-4E8F-B83D-E0BA42B89713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8C840D-6918-4E8F-B83D-E0BA42B89713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC8C840D-6918-4E8F-B83D-E0BA42B89713}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03FFA4FC-1E25-4EB8-8C39-A8B8C92829F8}
+	EndGlobalSection
+EndGlobal

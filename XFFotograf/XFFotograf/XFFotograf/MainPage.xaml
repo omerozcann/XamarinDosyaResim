@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFFotograf.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Image x:Name="resimImg" Source="" Grid.Column="0" Grid.Row="0" />
+            <Button x:Name="fotocekBtn" Text="Fotoğraf Çek" Grid.Column="0" Grid.Row="1" Clicked="fotocekBtn_Clicked" />
+            <ScrollView Grid.Column="0" Grid.Row="2">
+                <FlexLayout x:Name="flexLayout" JustifyContent="Center" Wrap="Wrap" />
+            </ScrollView>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>
